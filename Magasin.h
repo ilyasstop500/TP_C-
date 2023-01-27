@@ -32,7 +32,7 @@ public:
     void showproducts() ;
     void showproduct(std::string nom_produit) ;
 
-    // maj quantité produit
+    // maj quantitÃ© produit
     void majquantite(std::string nom_produit , int quantite ) ;
 
     // ajouter un client
@@ -53,15 +53,7 @@ public:
     // modifier qte produit du panier d'achat
     void updateproductquantitecart(std::string nom_produit , int id , int quantite) ;
 
-    // valider la commmande
-    //Void confirmcommande (int id) ;
-
-    // maj status commande
-    //Void updatecommandestatus(int id ) ;
-
-    // afficher les commandes confirmées
-    //Void showcommandesconfirmed() ;
-    //Void showcommandesconfirmedclinet(int id) ;
+  
 
 
 private:
